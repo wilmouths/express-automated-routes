@@ -1,4 +1,4 @@
-![https://travis-ci.org/wilmouths/express-automated-routes](https://travis-ci.org/wilmouths/express-automated-routes.svg?branch=master)
+![https://travis-ci.org/wilmouths/express-automated-routes.svg?branch=master](https://travis-ci.org/wilmouths/express-automated-routes)
 
 # express-automated-routes
 
