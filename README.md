@@ -11,7 +11,7 @@ You probably ask yourself the question of how the routes are made, the answer is
 ## Install
 
 ```
-npm install express-automated-routes --save`
+npm install express-automated-routes --save
 ```
 ---
 
