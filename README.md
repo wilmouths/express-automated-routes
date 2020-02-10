@@ -1,4 +1,5 @@
 ![https://travis-ci.org/wilmouths/express-automated-routes](https://travis-ci.org/wilmouths/express-automated-routes.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/wilmouths/express-automated-routes/badge.svg?branch=master)](https://coveralls.io/github/wilmouths/express-automated-routes?branch=master)
 
 # express-automated-routes
 
