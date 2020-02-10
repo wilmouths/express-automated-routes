@@ -1,3 +1,5 @@
+![https://travis-ci.org/wilmouths/express-automated-routes.svg?branch=master](https://travis-ci.org/wilmouths/express-automated-routes.svg?branch=master)
+
 # express-automated-routes
 
 **express-automated-routes** is an [express](https://github.com/expressjs/express) middleware that allows you to create routes easily without declaring them.
