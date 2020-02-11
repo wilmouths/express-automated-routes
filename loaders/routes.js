@@ -10,7 +10,7 @@ module.exports = class Routes extends Loader {
 
     routesFiles.forEach((routeFile) => {
       let fileName = path.basename(routeFile, '.js');
-      if (fileName.indexOf('_')) {
+      if (fileName.indexOf('_') === 0) {
         fileName = fileName.replace('_', ':');
       }
       if (fileName === 'index') {
@@ -21,7 +21,6 @@ module.exports = class Routes extends Loader {
       if (folderName.indexOf('_')) {
         folderName = folderName.replace('_', ':');
       }
-
       routes.set(`${folderName}/${fileName}`, require(routeFile));
     });
 
