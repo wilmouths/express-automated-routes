@@ -1,6 +1,7 @@
 ![https://travis-ci.org/wilmouths/express-automated-routes](https://travis-ci.org/wilmouths/express-automated-routes.svg?branch=master)
 ![https://david-dm.org/wilmouths/express-automated-routes.svg](https://david-dm.org/wilmouths/express-automated-routes.svg)
 [![Known Vulnerabilities](https://snyk.io/test/github/wilmouths/express-automated-routes/badge.svg?targetFile=package.json)](https://snyk.io/test/github/wilmouths/express-automated-routes?targetFile=package.json)
+[![Licence: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 # express-automated-routes
 
@@ -111,3 +112,9 @@ To define a middleware folder you have to proceed as follows :
 ```js
 app.set('middlewares', path.resolve(__dirname, 'middlewares'));
 ```
+
+---
+
+## 📝 License
+
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
