@@ -17,7 +17,7 @@ const loadMiddlewares = (app) => {
   return loader.load(app);
 };
 
-module.exports = (app) => (req, res, next) => {
+module.exports = (app) => {
   if (app.get('routes')) {
     folders.set('routes', app.get('routes'));
   }
@@ -27,7 +27,4 @@ module.exports = (app) => (req, res, next) => {
     folders.set('middlewares', app.get('middlewares'));
   }
   loadMiddlewares(app);
-
-  next();
-  console.log('aaa');
 };

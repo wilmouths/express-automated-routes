@@ -29,7 +29,7 @@ const app = express();
 
 app.set('middlewares', path.resolve(__dirname, 'middlewares')); // optional, default folder is ./middlewares
 app.set('routes', path.resolve(__dirname, 'routes')); // optional, default folder is ./routes
-app.use(expressAutomatedRoutes(app));
+expressAutomatedRoutes(app);
 
 app.listen(8080, () => {
   console.log('Listening on http://localhost:8080');
