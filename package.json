@@ -1,6 +1,6 @@
 {
   "name": "express-automated-routes",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This is an express middleware to create routes based on folder architecture",
   "main": "index.js",
   "scripts": {
