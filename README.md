@@ -1,5 +1,6 @@
 ![https://travis-ci.org/wilmouths/express-automated-routes](https://travis-ci.org/wilmouths/express-automated-routes.svg?branch=master)
-[![Coverage Status](https://coveralls.io/repos/github/wilmouths/express-automated-routes/badge.svg?branch=master)](https://coveralls.io/github/wilmouths/express-automated-routes?branch=master)
+![https://david-dm.org/wilmouths/express-automated-routes.svg](https://david-dm.org/wilmouths/express-automated-routes.svg)
+[![Known Vulnerabilities](https://snyk.io/test/github/wilmouths/express-automated-routes/badge.svg?targetFile=package.json)](https://snyk.io/test/github/wilmouths/express-automated-routes?targetFile=package.json)
 
 # express-automated-routes
 
