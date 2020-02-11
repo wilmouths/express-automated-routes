@@ -24,6 +24,16 @@ describe('Routes', () => {
       .end(done);
   });
 
+  it('GET   /admin', (done) => {
+    request(api)
+      .get('/admin')
+      .expect(401)
+      .expect((res) => {
+        expect(res.text).to.equal('Your are not an Administrator');
+      })
+      .end(done);
+  });
+
   it('GET    /teapot', (done) => {
     request(api)
       .get('/teapot')

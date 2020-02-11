@@ -8,12 +8,19 @@ module.exports = class Middlewares extends Loader {
 
     if (middlewaresFiles) {
       middlewaresFiles.forEach((middleware) => {
-        try {
-          app.use(require(path.resolve(this.path, middleware)));
-        } catch (error) {
-          console.error('[ERROR][ExpressAutomatedRoutes]', error);
+        const middlewarePath = path.resolve(this.path, middleware);
+        if (this.isFile(middlewarePath)) {
+          try {
+            app.use(require(middlewarePath));
+          } catch (error) {
+            console.error('[ERROR][ExpressAutomatedRoutes]', error);
+          }
         }
       });
     }
+  }
+
+  isFile(filePath) {
+    return fs.statSync(filePath).isFile();
   }
 };

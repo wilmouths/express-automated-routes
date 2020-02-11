@@ -32,7 +32,7 @@ module.exports = class Routes extends Loader {
         }
 
         if (typeof routeObject === 'object') {
-          app[method](route, routeObject.middlewares, routeObject.handler);
+          app[method](route, routeObject.middlewares || [], routeObject.handler || ((req, res) => res.status(500).end('No handler found')));
         }
       });
     });
